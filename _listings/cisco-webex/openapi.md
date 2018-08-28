@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Cisco WebEx
 x-complete: 1
@@ -93,4 +92,3 @@ paths:
       - Video Conferencing
       - Team
       - Room
----

@@ -7,11 +7,69 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1176-telap
 x-kinRank: "9"
 x-alexaRank: "1071695"
 tags: Room
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/room/master/_listings/telapi/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: hetras Hotel API Version 0 - Get a list with the details of all room types
+    for for the specified hotel id.
+  x-api-slug: apihotelv0hotelshotelidroom-types-get
+  description: With this call you can load the details about a all available room
+    types for the specified hotel.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1176-telapi.jpg
+  humanURL: http://www.telapi.com
+  baseURL: https://api.hetras-certification.net//
+  tags: SMS, Voice, Voice, Target, Stack Network, Technology, SaaS, Mobile, Telecommunications,
+    SMS, Telecommunications, Messages, Messages, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/room/master/_listings/telapi/apihotelv0hotelshotelidroom-types-get-openapi.md
+- name: hetras Hotel API Version 0 - Get all the details for a specific room type
+    in the hotel.
+  x-api-slug: apihotelv0hotelshotelidroom-typescode-get
+  description: With this call you can load the details about a specific room type
+    in the hotel.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1176-telapi.jpg
+  humanURL: http://www.telapi.com
+  baseURL: https://api.hetras-certification.net//
+  tags: SMS, Voice, Voice, Target, Stack Network, Technology, SaaS, Mobile, Telecommunications,
+    SMS, Telecommunications, Messages, Messages, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/room/master/_listings/telapi/apihotelv0hotelshotelidroom-typescode-get-openapi.md
+- name: hetras Hotel API Version 0 - Get all the details for a specific room in the
+    hotel.
+  x-api-slug: apihotelv0hotelshotelidroomsroomnumber-get
+  description: With this call you can load the details about a specific room in the
+    hotel. It will show you the current status of the room.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1176-telapi.jpg
+  humanURL: http://www.telapi.com
+  baseURL: https://api.hetras-certification.net//
+  tags: SMS, Voice, Voice, Target, Stack Network, Technology, SaaS, Mobile, Telecommunications,
+    SMS, Telecommunications, Messages, Messages, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/room/master/_listings/telapi/apihotelv0hotelshotelidroomsroomnumber-get-openapi.md
+- name: hetras Hotel API Version 0 - Partially updates a room.
+  x-api-slug: apihotelv0hotelshotelidroomsroomnumber-patch
+  description: "The hetras API is using this Patch Specification\r\n            to
+    partially update an existing resource. Currently this call only allows to modify
+    condition and housekeeping occupancy status of the room.\r\n            \r\n            A
+    request example:\r\n            [\r\n              {\r\n                \"op\":
+    \"replace\", \"path\": \"/status/condition\", \"value\": \"CleanNotInspected\"\r\n
+    \             }, {\r\n                \"op\": \"replace\", \"path\": \"/status/housekeeping_occupancy\",
+    \"value\": \"Vacant\"\r\n              }\r\n            ]\r\n            \r\n
+    \           For more details on how the API responds to errors please check our
+    documentation on \r\n            Error Handling."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1176-telapi.jpg
+  humanURL: http://www.telapi.com
+  baseURL: https://api.hetras-certification.net//
+  tags: SMS, Voice, Voice, Target, Stack Network, Technology, SaaS, Mobile, Telecommunications,
+    SMS, Telecommunications, Messages, Messages, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/room/master/_listings/telapi/apihotelv0hotelshotelidroomsroomnumber-patch-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://taxamo.api.gallery.streamdata.io
